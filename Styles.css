@@ -1,0 +1,111 @@
+body{
+    background-image: url(./wallpaperbetter\ \(1\).jpg);
+    font-family: sans-serif;
+    display: flex;
+}
+
+input,textarea,div,body,form{
+    box-sizing: border-box;
+}
+
+.form-container {
+    color: #fff;
+    margin: auto;
+    font-size: 20px;
+    box-shadow: 0px 10px 25px #0008;
+}
+
+.user-form {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 25px #0008;
+    
+}
+
+.form-input input, .form-textarea textarea{
+    width: 100%;
+    padding: 9px;
+    background:  transparent;
+    border: 2px solid #fff ;
+    border-radius: 4px;
+    font-size: 17px;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: #abf;
+}
+
+.user-msg{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-textarea{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.form-textarea textarea{
+    flex-grow: 1;
+    min-width: 400px;
+}
+
+.user-data, .user-msg{
+    padding: 30px;
+    min-width: 350px;
+}
+
+.form-container form{
+    border-left: 2px solid ;
+    border-right: 2px solid ;
+    padding: 12px;
+}
+.user-acept{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-acept div{
+    padding: 30px;
+}
+.form-submit input{
+    width: 100%;
+    padding: 11px 40px;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    outline: none;
+    color: #000;
+
+}
+.form-submit{
+    min-width: 350px;
+}
+.form-checkbox{
+    margin: auto;
+    flex-grow: 1;
+    min-width: 500px;
+}
+
+@media  screen and (max-width: 768px) {
+   .form-input input, .form-textarea textarea{
+        width: 100%;
+    }
+    
+}
+@media  screen and (max-width: 768px) {
+    .user-data, .user-msg{
+         width: 100%;
+         min-width: 250px;
+     }
+     .form-textarea{
+         height: 250px;
+     }
+     
+ }
+
+ .regresar {
+    text-decoration: none;
+    padding: 10px;
+ }
